@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  background-color: #FAFAFA;
+  justify-content: center;
+  align-items:center;
+}
+
+.nav-item {
+  display: flex;
+  width: 150px;
+  justify-content: center;
+}
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+  
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  transition: .2s;
+  text-decoration: none;
+  color: black
+}
+
+.nav-item a:hover{
+  text-decoration: none;
+  color: rgb(70, 70, 70);
+  background-color: rgb(255, 210, 210);
+}
+
+.container-avatar {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-right: 2%;
+  padding: 0 15px;
+  margin-top: 10px;
+}
+
+.section-avatar {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  width: 350px;
+  height: 100px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.section-contacts {
+  margin-top: 30px;
+}
+
+.contact-info, .skill-info, .education-info, .language-info {
+  list-style: none;
+  margin: 10;
+  padding: 0;
+}
+
+.section-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 14px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  border-bottom: 0.5px solid #3a3a3a;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.code-background {
+  background-color: #e0e0e0;
+  padding-left: 10px;
+  padding-bottom: 0;
+}
+
+.container-footer {
+    display: flex;
+    background-color: #FAFAFA;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.date {
+  font-weight: bold;
+  color: black;
+  font-size: 24 px;
+}
+
+.cv {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  color: rgb(185, 0, 0);
+  font-weight: bold;
+}
+
+.cv:hover {
+  color:rgb(255, 210, 210);
+}
