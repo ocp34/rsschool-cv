@@ -17,6 +17,7 @@ I decided to try my hand at RSSchool, as I lack relevant experience and knowledg
 - **HTLM**
 - **CSS**
 - **Git/GitHub**
+- - **VScode**
 - **JavaScript** (in progress)
 
 ## Code example
